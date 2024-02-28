@@ -1,0 +1,85 @@
+.header{
+    /* overflow: hidden;
+    position: fixed; */
+    width: 100%;
+    border: 2px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    z-index:1;
+    background-color: rgba(255, 255, 255, 0.048);
+    box-shadow: 2px 2px 2px orangered;
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding-right: 20px;
+    color: red;
+}
+
+.restaurant-card{
+    margin: 10px;
+    padding: 10px;
+    border: 2px ;
+    width: 250px;
+    box-shadow: 2px 2px 20px gray;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.restaurant-card img{
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.restaurant-card:hover{
+    box-shadow: 2px 2px 2px orangered;
+}
+
+.restaurant-container{
+   
+ z-index:0;
+}
+
+.restaurant-container .card{
+    margin-top: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Signin{
+    position: fixed;
+    top: 0;
+    right: 0;
+    border: 2px;
+    padding: 5px;
+    height: 100vh;
+    width: 350px;
+    z-index: 999;
+    background-color: rgba(208, 208, 225, 0.16);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.Signin .close-btn{
+    color: red;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.category-container{
+    max-width: 500px;
+    margin : 30px auto;
+    background-color: #f0f0f0;
+
+}
